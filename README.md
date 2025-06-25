@@ -20,14 +20,17 @@ A simple command-line tool to convert temperatures between Celsius and Fahrenhei
    mkdir -p ~/projects
    cd ~/projects
    ```
-4. Create your Python script with nano editor:
-   ``` nano converter.py ```
+4. 4. Create your Python script with nano editor:
+   ```bash
+   nano converter.py
+   
 Paste your Python code, then save and exit nano by pressing:
+
 . Ctrl + X
 . Then Y to confirm save
 . Then Enter to exit
 
-5. Usage Examples:
+6. Usage Examples:
 ```bash
 python converter.py --celsius 25
 # Output: 25.0°C is 77.00°F
