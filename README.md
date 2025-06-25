@@ -15,22 +15,21 @@ A simple command-line tool to convert temperatures between Celsius and Fahrenhei
 2. Open the terminal in VS Code (`Ctrl + \`` or go to `View > Terminal`).
 
 3. Create your project folder and navigate into it:
-
-   ```bash
+ ```bash
    mkdir -p ~/projects
    cd ~/projects
    ```
-4. 4. Create your Python script with nano editor:
+   
+4. Create your Python script with nano editor:
    ```bash
    nano converter.py
    
 Paste your Python code, then save and exit nano by pressing:
-
 . Ctrl + X
 . Then Y to confirm save
 . Then Enter to exit
 
-6. Usage Examples:
+5. Usage Examples:
 ```bash
 python converter.py --celsius 25
 # Output: 25.0°C is 77.00°F
